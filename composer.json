@@ -1,0 +1,24 @@
+{
+    "name": "omexon/filesystem",
+    "type": "library",
+    "description": "Filesystem (directory, file, ...)",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "omexon/debug": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omexon\\Filesystem\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Omexon\\Filesystem\\": "tests"
+        }
+    }
+}
