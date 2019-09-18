@@ -336,12 +336,12 @@ class FileTest extends TestCase
     }
 
     /**
-     * Test name.
+     * Test filename.
      */
-    public function testName(): void
+    public function testFilename(): void
     {
         $path = '/tmp/this-is-a-test.txt';
-        $this->assertEquals('this-is-a-test', File::name($path));
+        $this->assertEquals('this-is-a-test', File::filename($path));
     }
 
     /**

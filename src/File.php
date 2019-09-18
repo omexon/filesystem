@@ -263,12 +263,12 @@ class File
     }
 
     /**
-     * Name.
+     * Filename.
      *
      * @param string $path
      * @return string
      */
-    public static function name(string $path): string
+    public static function filename(string $path): string
     {
         return pathinfo($path, PATHINFO_FILENAME);
     }
